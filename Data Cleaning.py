@@ -157,8 +157,8 @@ df4 = df.copy()
 
 
 #Filling Missing Values in DC Input Current [A] Column
-mean_value1=df['DC Input Current [A]'].mean() #Finding the mean of the column having NaN
-df4['DC Input Current [A]'] = df['DC Input Current [A]'].fillna(value=mean_value1) #Replace NaNs with mean of values in the same column
+mean_value1=df4['DC Input Current [A]'].mean() #Finding the mean of the column having NaN
+df4['DC Input Current [A]'] = df4['DC Input Current [A]'].fillna(value=mean_value1) #Replace NaNs with mean of values in the same column
 print(df4)
 
 
@@ -166,8 +166,8 @@ print(df4)
 
 
 #Filling Missing Values in DC Input Voltage [V] Column
-mean_value2=df['DC Input Voltage [V]'].mean()
-df4['DC Input Voltage [V]'] = df['DC Input Voltage [V]'].fillna(value=mean_value2)
+mean_value2=df4['DC Input Voltage [V]'].mean()
+df4['DC Input Voltage [V]'] = df4['DC Input Voltage [V]'].fillna(value=mean_value2)
 print(df4)
 
 
@@ -176,5 +176,5 @@ print(df4)
 # In[20]:
 
 
-#df4.to_csv('IV_missing_value.csv')
+#df4.to_csv('IV_missing_value.csv') #to save the output in csv file
 
