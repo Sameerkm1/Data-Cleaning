@@ -12,3 +12,6 @@ In this work, I am showing how to find all missing values in the dataset and how
 (2) Method 1: Remove all rows which are having missing values; Method 2: Remove only that rows where entire columns have missing values.
 
 (3) Forward Fill, Backward Fill, Interpolation and Mean Value.
+
+# Source of Data
+This sample data is taken from solar inverter, which consist of input current and input voltage reading generated from a Solar PV module string.
